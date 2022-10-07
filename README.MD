@@ -12,8 +12,15 @@ virtualenvi venv
 
 **Ativar o Ambiente virtual**
 
+***No Windows***
+
 .\venv\Scripts\activate
+
+***No Linux***
+
+source ./venv/bin/activate
+
 
 **Instalar dependências do projeto**
 
-pip install -r .\requirements.txt
+pip install -r ./requirements.txt
